@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_members",
+  "info": {
+    "singularName": "business-member",
+    "pluralName": "business-members",
+    "displayName": "Business Member",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date",
+      "required": true
+    },
+    "websiteUrl": {
+      "type": "string"
+    },
+    "facebookUrl": {
+      "type": "string"
+    },
+    "instagramUrl": {
+      "type": "string"
+    }
+  }
+}
