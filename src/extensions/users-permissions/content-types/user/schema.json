@@ -69,6 +69,10 @@
     },
     "lastName": {
       "type": "string"
+    },
+    "earlyAccess": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

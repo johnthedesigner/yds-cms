@@ -1,0 +1,144 @@
+{
+  "kind": "singleType",
+  "collectionName": "shop_configs",
+  "info": {
+    "singularName": "shop-config",
+    "pluralName": "shop-configs",
+    "displayName": "Shop Config",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "disableShowPricesGlobally": {
+      "type": "boolean",
+      "default": false
+    },
+    "disableAddToCartGlobally": {
+      "type": "boolean",
+      "default": false
+    },
+    "disableShowInventoryGlobally": {
+      "type": "boolean",
+      "default": false
+    },
+    "earlyAccessShowPrice": {
+      "type": "enumeration",
+      "enum": [
+        "enabled",
+        "disabled",
+        "useTimeRange"
+      ],
+      "default": "disabled"
+    },
+    "earlyAccessNoPriceText": {
+      "type": "string"
+    },
+    "earlyAccessAddToCart": {
+      "type": "enumeration",
+      "enum": [
+        "enabled",
+        "disabled",
+        "useTimeRange"
+      ],
+      "default": "disabled"
+    },
+    "earlyAccessShowInventory": {
+      "type": "enumeration",
+      "enum": [
+        "enabled",
+        "disabled",
+        "useTimeRange"
+      ],
+      "default": "disabled"
+    },
+    "earlyAccessShopStart": {
+      "type": "datetime"
+    },
+    "earlyAccessShopEnd": {
+      "type": "datetime"
+    },
+    "memberShowPrice": {
+      "type": "enumeration",
+      "enum": [
+        "enabled",
+        "disabled",
+        "useTimeRange"
+      ],
+      "default": "disabled"
+    },
+    "memberNoPriceText": {
+      "type": "string"
+    },
+    "memberAddToCart": {
+      "type": "enumeration",
+      "enum": [
+        "enabled",
+        "disabled",
+        "useTimeRange"
+      ],
+      "default": "disabled"
+    },
+    "memberShowInventory": {
+      "type": "enumeration",
+      "enum": [
+        "enabled",
+        "disabled",
+        "useTimeRange"
+      ],
+      "default": "disabled"
+    },
+    "memberShopStart": {
+      "type": "datetime"
+    },
+    "memberShopEnd": {
+      "type": "datetime"
+    },
+    "allVisitorsShowPrice": {
+      "type": "enumeration",
+      "enum": [
+        "enabled",
+        "disabled",
+        "useTimeRange"
+      ],
+      "default": "disabled"
+    },
+    "allVisitorsNoPriceText": {
+      "type": "string"
+    },
+    "allVisitorsAddToCart": {
+      "type": "enumeration",
+      "enum": [
+        "enabled",
+        "disabled",
+        "useTimeRange"
+      ],
+      "default": "disabled"
+    },
+    "allVisitorsShowInventory": {
+      "type": "enumeration",
+      "enum": [
+        "enabled",
+        "disabled",
+        "useTimeRange"
+      ],
+      "default": "disabled"
+    },
+    "allVisitorsShopStart": {
+      "type": "datetime"
+    },
+    "allVisitorsShopEnd": {
+      "type": "datetime"
+    },
+    "showDahliasInShop": {
+      "type": "boolean",
+      "default": true
+    },
+    "showSuppliesInShop": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
