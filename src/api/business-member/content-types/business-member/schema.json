@@ -34,6 +34,14 @@
     },
     "instagramUrl": {
       "type": "string"
+    },
+    "addressed": {
+      "type": "boolean",
+      "default": false
+    },
+    "spam": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
