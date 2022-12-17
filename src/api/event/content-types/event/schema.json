@@ -16,24 +16,50 @@
       "type": "string",
       "required": true
     },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "meeting",
-        "workday"
-      ]
-    },
     "location": {
-      "type": "richtext"
+      "type": "string"
     },
     "details": {
       "type": "richtext"
+    },
+    "date": {
+      "type": "date",
+      "required": true
     },
     "startTime": {
       "type": "time"
     },
     "endTime": {
       "type": "time"
+    },
+    "zoomMeeting": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "zoomLink": {
+      "type": "string"
+    },
+    "inPerson": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "meeting": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "gardenTour": {
+      "type": "boolean",
+      "default": false
+    },
+    "workDay": {
+      "type": "boolean",
+      "default": false
+    },
+    "directionsUrl": {
+      "type": "string"
     }
   }
 }
