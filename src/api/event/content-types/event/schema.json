@@ -16,7 +16,10 @@
       "type": "string",
       "required": true
     },
-    "location": {
+    "locationName": {
+      "type": "string"
+    },
+    "locationAddress": {
       "type": "string"
     },
     "details": {
@@ -40,6 +43,9 @@
     "zoomLink": {
       "type": "string"
     },
+    "rsvpLink": {
+      "type": "string"
+    },
     "inPerson": {
       "type": "boolean",
       "required": false,
@@ -57,9 +63,6 @@
     "workDay": {
       "type": "boolean",
       "default": false
-    },
-    "directionsUrl": {
-      "type": "string"
     }
   }
 }
