@@ -29,10 +29,10 @@
       "type": "date",
       "required": true
     },
-    "dateNotFinal": {
+    "dateFinal": {
       "type": "boolean",
-      "default": false,
-      "required": false
+      "default": true,
+      "required": true
     },
     "startTime": {
       "type": "time"
