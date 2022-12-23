@@ -29,6 +29,11 @@
       "type": "date",
       "required": true
     },
+    "dateNotFinal": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
     "startTime": {
       "type": "time"
     },
