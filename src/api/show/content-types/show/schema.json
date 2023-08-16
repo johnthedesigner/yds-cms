@@ -34,16 +34,8 @@
     "linkText": {
       "type": "string"
     },
-    "file": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "fileUrl": {
+      "type": "string"
     }
   }
 }
