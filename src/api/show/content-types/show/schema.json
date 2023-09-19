@@ -36,6 +36,36 @@
     },
     "fileUrl": {
       "type": "string"
+    },
+    "link1Text": {
+      "type": "string"
+    },
+    "link1Url": {
+      "type": "string"
+    },
+    "link2Text": {
+      "type": "string"
+    },
+    "link2Url": {
+      "type": "string"
+    },
+    "link3Text": {
+      "type": "string"
+    },
+    "link3Url": {
+      "type": "string"
+    },
+    "link4Text": {
+      "type": "string"
+    },
+    "link4Url": {
+      "type": "string"
+    },
+    "link5Text": {
+      "type": "string"
+    },
+    "link5Url": {
+      "type": "string"
     }
   }
 }
