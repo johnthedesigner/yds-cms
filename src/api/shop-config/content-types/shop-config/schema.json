@@ -24,13 +24,33 @@
       "type": "boolean",
       "default": false
     },
+    "disableDahliaPrices": {
+      "type": "boolean",
+      "default": false
+    },
+    "disableDahliaAddToCart": {
+      "type": "boolean",
+      "default": false
+    },
+    "disableDahliaShowInventory": {
+      "type": "boolean",
+      "default": false
+    },
+    "disableSupplyPrices": {
+      "type": "boolean",
+      "default": false
+    },
+    "disableSupplyAddToCart": {
+      "type": "boolean",
+      "default": false
+    },
+    "disableSupplyShowInventory": {
+      "type": "boolean",
+      "default": false
+    },
     "earlyAccessShowPrice": {
       "type": "enumeration",
-      "enum": [
-        "enabled",
-        "disabled",
-        "useTimeRange"
-      ],
+      "enum": ["enabled", "disabled", "useTimeRange"],
       "default": "disabled"
     },
     "earlyAccessNoPriceText": {
@@ -38,20 +58,12 @@
     },
     "earlyAccessAddToCart": {
       "type": "enumeration",
-      "enum": [
-        "enabled",
-        "disabled",
-        "useTimeRange"
-      ],
+      "enum": ["enabled", "disabled", "useTimeRange"],
       "default": "disabled"
     },
     "earlyAccessShowInventory": {
       "type": "enumeration",
-      "enum": [
-        "enabled",
-        "disabled",
-        "useTimeRange"
-      ],
+      "enum": ["enabled", "disabled", "useTimeRange"],
       "default": "disabled"
     },
     "earlyAccessShopStart": {
@@ -62,11 +74,7 @@
     },
     "memberShowPrice": {
       "type": "enumeration",
-      "enum": [
-        "enabled",
-        "disabled",
-        "useTimeRange"
-      ],
+      "enum": ["enabled", "disabled", "useTimeRange"],
       "default": "disabled"
     },
     "memberNoPriceText": {
@@ -74,20 +82,12 @@
     },
     "memberAddToCart": {
       "type": "enumeration",
-      "enum": [
-        "enabled",
-        "disabled",
-        "useTimeRange"
-      ],
+      "enum": ["enabled", "disabled", "useTimeRange"],
       "default": "disabled"
     },
     "memberShowInventory": {
       "type": "enumeration",
-      "enum": [
-        "enabled",
-        "disabled",
-        "useTimeRange"
-      ],
+      "enum": ["enabled", "disabled", "useTimeRange"],
       "default": "disabled"
     },
     "memberShopStart": {
@@ -98,11 +98,7 @@
     },
     "allVisitorsShowPrice": {
       "type": "enumeration",
-      "enum": [
-        "enabled",
-        "disabled",
-        "useTimeRange"
-      ],
+      "enum": ["enabled", "disabled", "useTimeRange"],
       "default": "disabled"
     },
     "allVisitorsNoPriceText": {
@@ -110,20 +106,12 @@
     },
     "allVisitorsAddToCart": {
       "type": "enumeration",
-      "enum": [
-        "enabled",
-        "disabled",
-        "useTimeRange"
-      ],
+      "enum": ["enabled", "disabled", "useTimeRange"],
       "default": "disabled"
     },
     "allVisitorsShowInventory": {
       "type": "enumeration",
-      "enum": [
-        "enabled",
-        "disabled",
-        "useTimeRange"
-      ],
+      "enum": ["enabled", "disabled", "useTimeRange"],
       "default": "disabled"
     },
     "allVisitorsShopStart": {
