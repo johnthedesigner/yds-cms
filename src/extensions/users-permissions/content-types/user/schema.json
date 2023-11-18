@@ -73,6 +73,11 @@
     "earlyAccess": {
       "type": "boolean",
       "default": false
+    },
+    "membershipExpired": {
+      "type": "boolean",
+      "default": false,
+      "required": false
     }
   }
 }
