@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "shop_help_texts",
+  "info": {
+    "singularName": "shop-help-text",
+    "pluralName": "shop-help-texts",
+    "displayName": "Shop Help Text"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "message": {
+      "type": "richtext"
+    },
+    "showHelpText": {
+      "type": "boolean"
+    }
+  }
+}

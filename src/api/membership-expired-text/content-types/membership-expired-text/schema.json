@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "membership_expired_texts",
+  "info": {
+    "singularName": "membership-expired-text",
+    "pluralName": "membership-expired-texts",
+    "displayName": "Membership Expired Text"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "message": {
+      "type": "richtext"
+    }
+  }
+}
